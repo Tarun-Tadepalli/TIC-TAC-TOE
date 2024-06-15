@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="start.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SELECT DIFFICULTY</h1>
+        <div class="difficulty-container">
+            <div id="easy" class="difficulty-box">EASY</div>
+            <div id="medium" class="difficulty-box">MEDIUM</div>
+            <div id="hard" class="difficulty-box">HARD</div>
+        </div>
+        
+    </div>
+    <script>
+        document.getElementById('easy').addEventListener('click', function() {
+            window.location.href = 'sindex.html';
+        });
+
+        document.getElementById('medium').addEventListener('click', function() {
+            window.location.href = 'smedium.html';
+        });
+
+        document.getElementById('hard').addEventListener('click', function() {
+            window.location.href = 'shard.html';
+        });
+    </script>
+</body>
+</html>
